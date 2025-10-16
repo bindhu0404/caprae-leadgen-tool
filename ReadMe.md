@@ -45,27 +45,30 @@ Built with a focus on **business usability, automation, and actionable insights*
    cd prospectpro
 
 2. **Install dependencies**
+   ```bash
+   npm install
 
-     npm install
 
-
-3. **Set environment variables**
+4. **Set environment variables**
    Create a .env file in the backend root and add:
 
-   ```MONGO_URI=your_mongodb_atlas_url
+   ```
+    MONGO_URI=your_mongodb_atlas_url
     JWT_SECRET=your_secret
 
 
-4. **Run the app locally**
+5. **Run the app locally**
 
     Start backend:
 
-    ```node server.js
-
+    ```
+    node server.js
+    ```
 
     Start frontend:
 
-    ```npm start
+    ```
+    npm start
 
 
 App runs at http://localhost:3000.
