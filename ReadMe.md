@@ -41,7 +41,7 @@ Built with a focus on **business usability, automation, and actionable insights*
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/yourusername/prospectpro.git
+   git clone [https://github.com/yourusername/prospectpro.git](https://github.com/bindhu0404/caprae-leadgen-tool.git)
    cd prospectpro
 
 2. **Install dependencies**
