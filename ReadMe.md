@@ -48,15 +48,13 @@ Built with a focus on **business usability, automation, and actionable insights*
    ```bash
    npm install
 
-
 4. **Set environment variables**
    Create a .env file in the backend root and add:
 
    ```
     MONGO_URI=your_mongodb_atlas_url
     JWT_SECRET=your_secret
-
-
+   
 5. **Run the app locally**
 
     Start backend:
@@ -64,12 +62,10 @@ Built with a focus on **business usability, automation, and actionable insights*
     ```
     node server.js
     ```
-
     Start frontend:
 
     ```
     npm start
-
 
 App runs at http://localhost:3000.
 
@@ -83,7 +79,7 @@ The platform demonstrates AI-readiness by enabling structured data processing an
 ## Dataset
 
 Included sample dataset:
-/data/companies_list.csv — Demonstrates company data with key parameters (Company Name, Revenue, Employee Count, Industry, City).
+/companies_list.csv — Demonstrates company data with key parameters (Company Name, Revenue, Employee Count, Industry, City).
 
 ## Summary
 
