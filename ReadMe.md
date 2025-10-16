@@ -46,7 +46,7 @@ Built with a focus on **business usability, automation, and actionable insights*
 
 2. **Install dependencies**
 
-   ```npm install
+     npm install
 
 
 3. **Set environment variables**
