@@ -1,0 +1,51 @@
+Company,Industry,City,Website,Employees,Funding,Email,LinkedIn
+HealthifyMe,Healthcare,Bangalore,https://www.healthifyme.com,201-500,$20M,info@healthifyme.com,https://linkedin.com/company/healthifyme
+Practo,Healthcare,Bangalore,https://www.practo.com,1001-5000,$120M,contact@practo.com,https://linkedin.com/company/practo
+mfine,Healthcare,Bangalore,https://www.mfine.co,501-1000,$80M,support@mfine.co,https://linkedin.com/company/mfine
+Pharmeasy,Healthcare,Bangalore,https://pharmeasy.in,1001-5000,$500M,hello@pharmeasy.in,https://linkedin.com/company/pharmeasy
+CureFit,Healthcare,Mumbai,https://www.cure.fit,1001-5000,$350M,team@curefit.com,https://linkedin.com/company/curefit
+MedGenome,Healthcare,Mumbai,https://medgenome.com,201-500,$40M,info@medgenome.com,https://linkedin.com/company/medgenome
+CallHealth,Healthcare,Mumbai,https://callhealth.com,501-1000,$65M,care@callhealth.com,https://linkedin.com/company/callhealth
+HealthAssure,Healthcare,Mumbai,https://healthassure.in,201-500,$25M,contact@healthassure.in,https://linkedin.com/company/healthassure
+1mg,Healthcare,Delhi,https://www.1mg.com,1001-5000,$200M,help@1mg.com,https://linkedin.com/company/1mg
+DocPrime,Healthcare,Delhi,https://docprime.com,201-500,$15M,info@docprime.com,https://linkedin.com/company/docprime
+Clove Dental,Healthcare,Delhi,https://clovedental.in,1001-5000,$100M,contact@clovedental.in,https://linkedin.com/company/clove-dental
+Portea,Healthcare,Delhi,https://www.portea.com,501-1000,$50M,hello@portea.com,https://linkedin.com/company/portea
+StanPlus,Healthcare,Hyderabad,https://stanplus.com,201-500,$10M,support@stanplus.com,https://linkedin.com/company/stanplus
+Care Hospitals,Healthcare,Hyderabad,https://www.carehospitals.com,1001-5000,$150M,info@carehospitals.com,https://linkedin.com/company/carehospitals
+Neuberg Diagnostics,Healthcare,Hyderabad,https://neubergdiagnostics.com,501-1000,$30M,contact@neuberg.com,https://linkedin.com/company/neuberg-diagnostics
+Ayu Health,Healthcare,Hyderabad,https://ayu.health,201-500,$25M,team@ayu.health,https://linkedin.com/company/ayuhealth
+Paytm,FinTech,Bangalore,https://paytm.com,5000+,$2B,support@paytm.com,https://linkedin.com/company/paytm
+Razorpay,FinTech,Bangalore,https://razorpay.com,1001-5000,$500M,hello@razorpay.com,https://linkedin.com/company/razorpay
+PhonePe,FinTech,Bangalore,https://phonepe.com,5000+,$1B,contact@phonepe.com,https://linkedin.com/company/phonepe
+ZestMoney,FinTech,Bangalore,https://zestmoney.in,501-1000,$70M,info@zestmoney.in,https://linkedin.com/company/zestmoney
+Cred,FinTech,Mumbai,https://cred.club,1001-5000,$900M,team@cred.club,https://linkedin.com/company/credclub
+InCred,FinTech,Mumbai,https://www.incred.com,1001-5000,$200M,contact@incred.com,https://linkedin.com/company/incred-financial
+PineLabs,FinTech,Mumbai,https://www.pinelabs.com,1001-5000,$300M,hello@pinelabs.com,https://linkedin.com/company/pinelabs
+PayU,FinTech,Mumbai,https://payu.in,1001-5000,$600M,info@payu.in,https://linkedin.com/company/payu
+BharatPe,FinTech,Delhi,https://bharatpe.com,1001-5000,$850M,support@bharatpe.com,https://linkedin.com/company/bharatpe
+Mobikwik,FinTech,Delhi,https://mobikwik.com,1001-5000,$100M,hello@mobikwik.com,https://linkedin.com/company/mobikwik
+PolicyBazaar,FinTech,Delhi,https://policybazaar.com,5000+,$1B,info@policybazaar.com,https://linkedin.com/company/policybazaar
+ETMoney,FinTech,Delhi,https://etmoney.com,201-500,$40M,team@etmoney.com,https://linkedin.com/company/etmoney
+FlexPay,FinTech,Hyderabad,https://flexpay.in,201-500,$20M,info@flexpay.in,https://linkedin.com/company/flexpay
+Finin,FinTech,Hyderabad,https://finin.io,51-200,$8M,support@finin.io,https://linkedin.com/company/finin
+Finkraft,FinTech,Hyderabad,https://finkraft.ai,51-200,$5M,hello@finkraft.ai,https://linkedin.com/company/finkraft
+Paymatrix,FinTech,Hyderabad,https://paymatrix.in,51-200,$7M,contact@paymatrix.in,https://linkedin.com/company/paymatrix
+Flipkart,Ecommerce,Bangalore,https://flipkart.com,5000+,$2B,contact@flipkart.com,https://linkedin.com/company/flipkart
+Myntra,Ecommerce,Bangalore,https://myntra.com,5000+,$1B,help@myntra.com,https://linkedin.com/company/myntra
+BigBasket,Ecommerce,Bangalore,https://bigbasket.com,1001-5000,$600M,support@bigbasket.com,https://linkedin.com/company/bigbasket
+Udaan,Ecommerce,Bangalore,https://udaan.com,1001-5000,$900M,team@udaan.com,https://linkedin.com/company/udaan
+Nykaa,Ecommerce,Mumbai,https://nykaa.com,5000+,$1.2B,info@nykaa.com,https://linkedin.com/company/nykaa
+Pepperfry,Ecommerce,Mumbai,https://pepperfry.com,1001-5000,$250M,contact@pepperfry.com,https://linkedin.com/company/pepperfry
+Purplle,Ecommerce,Mumbai,https://purplle.com,501-1000,$150M,hello@purplle.com,https://linkedin.com/company/purplle
+FirstCry,Ecommerce,Mumbai,https://firstcry.com,5000+,$900M,care@firstcry.com,https://linkedin.com/company/firstcry
+Snapdeal,Ecommerce,Delhi,https://snapdeal.com,5000+,$1.1B,support@snapdeal.com,https://linkedin.com/company/snapdeal
+Lenskart,Ecommerce,Delhi,https://lenskart.com,5000+,$1B,contact@lenskart.com,https://linkedin.com/company/lenskart
+Grofers,Ecommerce,Delhi,https://grofers.com,1001-5000,$700M,help@grofers.com,https://linkedin.com/company/grofers
+ShopClues,Ecommerce,Delhi,https://shopclues.com,1001-5000,$200M,hello@shopclues.com,https://linkedin.com/company/shopclues
+Meesho,Ecommerce,Hyderabad,https://meesho.com,5000+,$1.5B,info@meesho.com,https://linkedin.com/company/meesho
+Instamojo,Ecommerce,Hyderabad,https://instamojo.com,201-500,$50M,support@instamojo.com,https://linkedin.com/company/instamojo
+Redbus,Ecommerce,Hyderabad,https://redbus.in,1001-5000,$500M,contact@redbus.in,https://linkedin.com/company/redbus
+Abhibus,Ecommerce,Hyderabad,https://abhibus.com,201-500,$40M,hello@abhibus.com,https://linkedin.com/company/abhibus
+Byjus,EdTech,Bangalore,https://byjus.com,5000+,$2.5B,support@byjus.com,https://linkedin.com/company/byjus
+Unacademy,EdTech,Bangalore,https://unacademy.com,5000+,$1B,hello@unacademy.com,https://linkedin.com/company/unacademy
