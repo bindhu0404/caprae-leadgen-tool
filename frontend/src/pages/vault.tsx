@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as CryptoJS from "crypto-js";
 import { FaCopy, FaEdit, FaTrash } from "react-icons/fa";
 
+
 /**
  * Vault page (TypeScript)
  * - stores encrypted passwords in localStorage

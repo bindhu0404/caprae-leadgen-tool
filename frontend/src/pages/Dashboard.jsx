@@ -4,7 +4,8 @@ import axios from "axios";
 import FileUpload from "../components/FileUpload";
 import ManualEntry from "../components/ManualEntry";
 import { useNavigate, Link } from "react-router-dom";
-import { FaTrash, FaMagic } from "react-icons/fa6"; // export removed on saved leads
+import { FaTrashAlt, FaMagic } from "react-icons/fa"; // export removed on saved leads
+
 
 const DashboardPage = () => {
   const navigate = useNavigate();
@@ -417,7 +418,7 @@ const DashboardPage = () => {
                   onClick={clearAllLeads}
                   className="flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
                 >
-                  <FaTrash /> Clear All
+                  <FaTrashAlt /> Clear All
                 </button>
 
                 <button

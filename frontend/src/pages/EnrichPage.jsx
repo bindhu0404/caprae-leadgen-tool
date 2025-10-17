@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { FaCopy, FaFileExport, FaArrowLeft } from "react-icons/fa6";
+import { FaCopy, FaFileExport, FaArrowLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const EnrichPage = () => {
