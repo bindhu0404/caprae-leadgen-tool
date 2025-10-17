@@ -4,7 +4,7 @@ import axios from "axios";
 import FileUpload from "../components/FileUpload";
 import ManualEntry from "../components/ManualEntry";
 import { useNavigate, Link } from "react-router-dom";
-import { FaTrashAlt, FaMagic } from "react-icons/fa"; // export removed on saved leads
+import { FaTrashAlt, FaMagic } from "react-icons/fa6"; // export removed on saved leads
 
 const DashboardPage = () => {
   const navigate = useNavigate();
