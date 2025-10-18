@@ -1,25 +1,34 @@
+// src/pages/Login.jsx
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
 
-const Login = () => {
+export default function Login() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ email: "", password: "" });
-  const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState("");
+  const API_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:5000";
+
+
 
   const handleChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setMessage("");
     try {
-      await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/login`, formData);
-      localStorage.setItem("token", res.data.token);
-      setMessage("Login successful!");
-      setTimeout(() => navigate("/dashboard"), 1000);
+      const res = await axios.post(`${API_URL}/api/auth/login`, formData);
+      // expected: { message: "Login successful", token: "..." }
+      if (res?.data?.token) {
+        localStorage.setItem("token", res.data.token);
+        setMessage("Login successful — redirecting...");
+        setTimeout(() => navigate("/dashboard"), 800);
+      } else {
+        setMessage(res.data?.message || "Login failed");
+      }
     } catch (err) {
+      console.error("Login error:", err);
       setMessage(err.response?.data?.message || "Login failed");
     }
   };
@@ -36,30 +45,17 @@ const Login = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            autoComplete="new-email"
             className="w-full border p-2 rounded"
           />
-
-          <div className="relative">
-            <input
-              name="password"
-              type={showPassword ? "text" : "password"}
-              placeholder="Password"
-              value={formData.password}
-              onChange={handleChange}
-              required
-              autoComplete="new-password"
-              className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none"
-            />
-            <button
-              type="button"
-              onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-2.5 text-gray-600 hover:text-gray-800"
-            >
-              {/* {showPassword ? <FaEyeSlash size={18} /> : <FaEye size={18} />} */}
-            </button>
-          </div>
-
+          <input
+            name="password"
+            type="password"
+            placeholder="Password"
+            value={formData.password}
+            onChange={handleChange}
+            required
+            className="w-full border p-2 rounded"
+          />
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
@@ -67,9 +63,7 @@ const Login = () => {
             Login
           </button>
         </form>
-
         {message && <p className="mt-3 text-center text-sm text-gray-600">{message}</p>}
-
         <p className="text-center text-sm mt-4 text-gray-700">
           Don’t have an account?{" "}
           <Link to="/signup" className="text-blue-600 hover:underline font-medium">
@@ -79,6 +73,4 @@ const Login = () => {
       </div>
     </div>
   );
-};
-
-export default Login;
+}
