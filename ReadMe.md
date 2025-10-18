@@ -1,4 +1,4 @@
-# ProspectPro — AI-Powered Lead Generation and Scoring Tool  
+# ProspectPro
 
 **Live Demo:** [Click here](https://caprae-leadgen-tool-k3mk.vercel.app/login) 
 
