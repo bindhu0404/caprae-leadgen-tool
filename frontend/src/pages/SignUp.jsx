@@ -24,7 +24,7 @@ export default function Signup() {
     setSuccess("");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/signup", formData);
+      await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/signup`, formData);
       if (res.status === 201) {
         setSuccess("Account created successfully! Redirecting to login...");
         setTimeout(() => navigate("/login"), 1500);
